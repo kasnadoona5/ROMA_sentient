@@ -20,7 +20,7 @@ This guide is for **ROMA v0.2.0-beta (October 2025)**, which is a complete rewri
 - Root or sudo access
 - OpenRouter account (free tier: https://openrouter.ai/)
 - Exa.ai account (free tier: https://exa.ai/)
-- 4GB+ RAM, 20GB+ disk space
+- 2GB+ RAM, 20GB+ disk space
 - Open ports: 8000 (API), 9001 (MinIO console, optional)
 
 ## 🛠️ Part 1: System Preparation
@@ -28,7 +28,7 @@ This guide is for **ROMA v0.2.0-beta (October 2025)**, which is a complete rewri
 ### Step 1: Connect and Update System
 
 ```bash
-ssh root@<your_vps_ip>
+
 sudo apt update && sudo apt upgrade -y
 ```
 
